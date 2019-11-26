@@ -7,8 +7,11 @@
 //
 
 #import "MainViewController.h"
+#import "MainViewCell.h"
+#import "AlgorithmMoreModel.h"
 #import "BubbleSortViewController.h"//冒泡排序
 #import "Algorithm-Swift.h"
+#import "SeekNextBigNumViewController.h"
 
 @interface MainViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableView;
@@ -27,11 +30,6 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.tableView];
     
-    self.dataArray = @[
-                       @"Sort_冒泡排序",
-                       @"Sort_选择排序",
-                       ];
-    
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     UIViewController *pushVC = nil;
@@ -40,7 +38,7 @@
     }else if(indexPath.row == 1){
         pushVC = SelectionSortViewController.new;
     }else if(indexPath.row == 2){
-        
+        pushVC = [[SeekNextBigNumViewController alloc] init];
     }else if(indexPath.row == 3){
         
     }else if(indexPath.row == 4){
@@ -57,39 +55,53 @@
         
     }
     if (indexPath.row <= self.dataArray.count - 1) {
-        pushVC.title = self.dataArray[indexPath.row];
+        AlgorithmMoreModel *m = self.dataArray[indexPath.row];
+        pushVC.title = m.algorithmName;
         pushVC.view.backgroundColor = [UIColor whiteColor];
         [self.navigationController pushViewController:pushVC animated:YES];
     }
 }
 
 #pragma mark - tableViewDelegate
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ALGORITHMIDENTIFIER forIndexPath:indexPath];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.textLabel.text = self.dataArray[indexPath.row];
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    MainViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([MainViewCell class]) forIndexPath:indexPath];
+    cell.model = (AlgorithmMoreModel *)[self.dataArray objectAtIndex:indexPath.row];
     return cell;
 }
+
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataArray.count;
 }
+
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 50;
+    return 80;
 }
 
 #pragma mark - lazy loading
--(UITableView *)tableView{
+- (NSArray *)dataArray {
+    if (!_dataArray) {
+        AlgorithmMoreManager *algorithmMoreManager = [[AlgorithmMoreManager alloc] init];
+        _dataArray = algorithmMoreManager.moreItemModels;
+    }
+    return _dataArray;
+}
+
+- (UITableView *)tableView {
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView.backgroundColor = [UIColor colorWithRed:247/255.0 green:247/255.0 blue:247/255.0 alpha:1.0];
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.delegate = self;
         _tableView.dataSource= self;
         
-        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:ALGORITHMIDENTIFIER];
+        [_tableView registerClass:[MainViewCell class] forCellReuseIdentifier:NSStringFromClass([MainViewCell class])];
     }
     return _tableView;
 }
+
 
 @end

@@ -16,6 +16,10 @@
 		0C6AEBEC238CD0640097356E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AEBEB238CD0640097356E /* MainViewController.m */; };
 		0C6AEBEF238CD3160097356E /* BubbleSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AEBEE238CD3160097356E /* BubbleSortViewController.m */; };
 		29B7616E238D09060033440B /* SelectionSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7616D238D09060033440B /* SelectionSortViewController.swift */; };
+		4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */; };
+		4CFDDF18238D20F90025757D /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF12238D20F90025757D /* MainViewCell.m */; };
+		4CFDDF19238D20F90025757D /* AlgorithmMoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF15238D20F90025757D /* AlgorithmMoreModel.m */; };
+		4CFDDF1A238D20F90025757D /* AlgorithmMore.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CFDDF16238D20F90025757D /* AlgorithmMore.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,15 @@
 		0C6AEBEE238CD3160097356E /* BubbleSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSortViewController.m; sourceTree = "<group>"; };
 		29B7616C238D09060033440B /* Algorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithm-Bridging-Header.h"; sourceTree = "<group>"; };
 		29B7616D238D09060033440B /* SelectionSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSortViewController.swift; sourceTree = "<group>"; };
+		4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekNextBigNumViewController.m; sourceTree = "<group>"; };
+		4CFDDF0C238D20E30025757D /* SeekNextBigNumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeekNextBigNumViewController.h; sourceTree = "<group>"; };
+		4CFDDF10238D20F90025757D /* CommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefines.h; sourceTree = "<group>"; };
+		4CFDDF12238D20F90025757D /* MainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewCell.m; sourceTree = "<group>"; };
+		4CFDDF13238D20F90025757D /* MainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewCell.h; sourceTree = "<group>"; };
+		4CFDDF15238D20F90025757D /* AlgorithmMoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmMoreModel.m; sourceTree = "<group>"; };
+		4CFDDF16238D20F90025757D /* AlgorithmMore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlgorithmMore.plist; sourceTree = "<group>"; };
+		4CFDDF17238D20F90025757D /* AlgorithmMoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmMoreModel.h; sourceTree = "<group>"; };
+		4CFDDF1B238D219C0025757D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +80,9 @@
 		0C6AEBD1238CCFAF0097356E /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				4CFDDF0E238D20F90025757D /* Helpers */,
+				4CFDDF14238D20F90025757D /* Models */,
+				4CFDDF11238D20F90025757D /* Views */,
 				0C6AEBE8238CD0530097356E /* Source */,
 				0C6AEBD2238CCFAF0097356E /* AppDelegate.h */,
 				0C6AEBD3238CCFAF0097356E /* AppDelegate.m */,
@@ -74,6 +90,7 @@
 				0C6AEBEB238CD0640097356E /* MainViewController.m */,
 				0C6AEBD5238CCFAF0097356E /* ViewController.h */,
 				0C6AEBD6238CCFAF0097356E /* ViewController.m */,
+				4CFDDF1B238D219C0025757D /* PrefixHeader.pch */,
 				0C6AEBD8238CCFAF0097356E /* Main.storyboard */,
 				0C6AEBDB238CCFB10097356E /* Assets.xcassets */,
 				29B7616C238D09060033440B /* Algorithm-Bridging-Header.h */,
@@ -98,8 +115,45 @@
 				0C6AEBED238CD3160097356E /* BubbleSortViewController.h */,
 				0C6AEBEE238CD3160097356E /* BubbleSortViewController.m */,
 				29B7616D238D09060033440B /* SelectionSortViewController.swift */,
+				4CFDDF0C238D20E30025757D /* SeekNextBigNumViewController.h */,
+				4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */,
 			);
 			path = Sort;
+			sourceTree = "<group>";
+		};
+		4CFDDF0E238D20F90025757D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4CFDDF0F238D20F90025757D /* Macro */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4CFDDF0F238D20F90025757D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				4CFDDF10238D20F90025757D /* CommonDefines.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		4CFDDF11238D20F90025757D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CFDDF13238D20F90025757D /* MainViewCell.h */,
+				4CFDDF12238D20F90025757D /* MainViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CFDDF14238D20F90025757D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CFDDF16238D20F90025757D /* AlgorithmMore.plist */,
+				4CFDDF17238D20F90025757D /* AlgorithmMoreModel.h */,
+				4CFDDF15238D20F90025757D /* AlgorithmMoreModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +217,7 @@
 				0C6AEBDF238CCFB10097356E /* LaunchScreen.storyboard in Resources */,
 				0C6AEBDC238CCFB10097356E /* Assets.xcassets in Resources */,
 				0C6AEBDA238CCFAF0097356E /* Main.storyboard in Resources */,
+				4CFDDF1A238D20F90025757D /* AlgorithmMore.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,11 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C6AEBD7238CCFAF0097356E /* ViewController.m in Sources */,
+				4CFDDF18238D20F90025757D /* MainViewCell.m in Sources */,
 				0C6AEBEF238CD3160097356E /* BubbleSortViewController.m in Sources */,
 				0C6AEBE2238CCFB10097356E /* main.m in Sources */,
 				0C6AEBD4238CCFAF0097356E /* AppDelegate.m in Sources */,
 				0C6AEBEC238CD0640097356E /* MainViewController.m in Sources */,
+				4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */,
 				29B7616E238D09060033440B /* SelectionSortViewController.swift in Sources */,
+				4CFDDF19238D20F90025757D /* AlgorithmMoreModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +380,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Algorithm/PrefixHeader.pch;
 				INFOPLIST_FILE = Algorithm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,6 +403,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Algorithm/PrefixHeader.pch;
 				INFOPLIST_FILE = Algorithm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
