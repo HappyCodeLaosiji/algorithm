@@ -30,16 +30,10 @@
     return self;
 }
 
-- (void)setViewContent {
-    self.nameLabel.text = self.model.algorithmName;
-    self.authorLabel.text = self.model.author;
-}
-
 - (void)setModel:(AlgorithmMoreModel *)model {
     _model = model;
     self.nameLabel.text = model.algorithmName;
     self.authorLabel.text = model.author;
-//    [self setViewContent];
 }
 
 #pragma Lazy Load
