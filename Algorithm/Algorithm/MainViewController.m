@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "BubbleSortViewController.h"//冒泡排序
+#import "Algorithm-Swift.h"
 
 @interface MainViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableView;
@@ -28,18 +29,17 @@
     
     self.dataArray = @[
                        @"Sort_冒泡排序",
+                       @"Sort_选择排序",
                        ];
     
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    UIViewController *pushVC = nil;
     if (indexPath.row == 0) {//冒泡排序
-        BubbleSortViewController *bubbleSortVC = [[BubbleSortViewController alloc] init];
-        [self.navigationController pushViewController:bubbleSortVC animated:YES];
-        
+        pushVC = [[BubbleSortViewController alloc] init];
     }else if(indexPath.row == 1){
-      
+        pushVC = SelectionSortViewController.new;
     }else if(indexPath.row == 2){
-        
         
     }else if(indexPath.row == 3){
         
@@ -55,6 +55,11 @@
         
     }else if(indexPath.row == 9){
         
+    }
+    if (indexPath.row <= self.dataArray.count - 1) {
+        pushVC.title = self.dataArray[indexPath.row];
+        pushVC.view.backgroundColor = [UIColor whiteColor];
+        [self.navigationController pushViewController:pushVC animated:YES];
     }
 }
 
