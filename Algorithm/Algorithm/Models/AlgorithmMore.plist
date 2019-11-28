@@ -26,5 +26,17 @@
 		<key>algorithmName</key>
 		<string>数字拆分</string>
 	</dict>
+	<dict>
+		<key>author</key>
+		<string>zht</string>
+		<key>algorithmName</key>
+		<string>选择排序</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>zht</string>
+		<key>algorithmName</key>
+		<string>插入排序</string>
+	</dict>
 </array>
 </plist>

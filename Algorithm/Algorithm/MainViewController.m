@@ -13,7 +13,8 @@
 #import "Algorithm-Swift.h"
 #import "SeekNextBigNumViewController.h"
 #import "SimpleCutViewController.h"
-
+#import "SelectionSortNewViewController.h"//选择排序
+#import "InsertSortViewController.h"//插入排序
 @interface MainViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NSArray *dataArray;
@@ -42,10 +43,10 @@
         pushVC = [[SeekNextBigNumViewController alloc] init];
     }else if(indexPath.row == 3){
         pushVC = [[SimpleCutViewController alloc] init];
-    }else if(indexPath.row == 4){
-        
-    }else if(indexPath.row == 5){
-        
+    }else if(indexPath.row == 4){//选择排序
+        pushVC = [[SelectionSortNewViewController alloc] init];
+    }else if(indexPath.row == 5){//插入排序
+        pushVC = [[InsertSortViewController alloc]init];
     }else if(indexPath.row == 6){
         
     }else if(indexPath.row == 7){

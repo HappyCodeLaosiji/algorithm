@@ -15,6 +15,8 @@
 		0C6AEBE2238CCFB10097356E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AEBE1238CCFB10097356E /* main.m */; };
 		0C6AEBEC238CD0640097356E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AEBEB238CD0640097356E /* MainViewController.m */; };
 		0C6AEBEF238CD3160097356E /* BubbleSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AEBEE238CD3160097356E /* BubbleSortViewController.m */; };
+		0CB91481238FA466003C498E /* SelectionSortNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB91480238FA466003C498E /* SelectionSortNewViewController.m */; };
+		0CB91484238FA4AA003C498E /* InsertSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB91483238FA4AA003C498E /* InsertSortViewController.m */; };
 		29B7616E238D09060033440B /* SelectionSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7616D238D09060033440B /* SelectionSortViewController.swift */; };
 		4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */; };
 		4CFDDF18238D20F90025757D /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF12238D20F90025757D /* MainViewCell.m */; };
@@ -38,6 +40,10 @@
 		0C6AEBEB238CD0640097356E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		0C6AEBED238CD3160097356E /* BubbleSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSortViewController.h; sourceTree = "<group>"; };
 		0C6AEBEE238CD3160097356E /* BubbleSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSortViewController.m; sourceTree = "<group>"; };
+		0CB9147F238FA466003C498E /* SelectionSortNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionSortNewViewController.h; sourceTree = "<group>"; };
+		0CB91480238FA466003C498E /* SelectionSortNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionSortNewViewController.m; sourceTree = "<group>"; };
+		0CB91482238FA4AA003C498E /* InsertSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSortViewController.h; sourceTree = "<group>"; };
+		0CB91483238FA4AA003C498E /* InsertSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSortViewController.m; sourceTree = "<group>"; };
 		29B7616C238D09060033440B /* Algorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithm-Bridging-Header.h"; sourceTree = "<group>"; };
 		29B7616D238D09060033440B /* SelectionSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSortViewController.swift; sourceTree = "<group>"; };
 		4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekNextBigNumViewController.m; sourceTree = "<group>"; };
@@ -122,6 +128,10 @@
 				4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */,
 				4CFDDF2E238F5A390025757D /* SimpleCutViewController.h */,
 				4CFDDF2F238F5A390025757D /* SimpleCutViewController.m */,
+				0CB9147F238FA466003C498E /* SelectionSortNewViewController.h */,
+				0CB91480238FA466003C498E /* SelectionSortNewViewController.m */,
+				0CB91482238FA4AA003C498E /* InsertSortViewController.h */,
+				0CB91483238FA4AA003C498E /* InsertSortViewController.m */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -233,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB91481238FA466003C498E /* SelectionSortNewViewController.m in Sources */,
 				0C6AEBD7238CCFAF0097356E /* ViewController.m in Sources */,
 				4CFDDF30238F5A390025757D /* SimpleCutViewController.m in Sources */,
 				4CFDDF18238D20F90025757D /* MainViewCell.m in Sources */,
@@ -241,6 +252,7 @@
 				0C6AEBD4238CCFAF0097356E /* AppDelegate.m in Sources */,
 				0C6AEBEC238CD0640097356E /* MainViewController.m in Sources */,
 				4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */,
+				0CB91484238FA4AA003C498E /* InsertSortViewController.m in Sources */,
 				29B7616E238D09060033440B /* SelectionSortViewController.swift in Sources */,
 				4CFDDF19238D20F90025757D /* AlgorithmMoreModel.m in Sources */,
 			);
