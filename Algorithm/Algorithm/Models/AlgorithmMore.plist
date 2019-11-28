@@ -20,5 +20,11 @@
 		<key>algorithmName</key>
 		<string>寻找下一个最大数</string>
 	</dict>
+	<dict>
+		<key>author</key>
+		<string>sfl</string>
+		<key>algorithmName</key>
+		<string>数字拆分</string>
+	</dict>
 </array>
 </plist>

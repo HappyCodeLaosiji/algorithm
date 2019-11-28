@@ -12,6 +12,7 @@
 #import "BubbleSortViewController.h"//冒泡排序
 #import "Algorithm-Swift.h"
 #import "SeekNextBigNumViewController.h"
+#import "SimpleCutViewController.h"
 
 @interface MainViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableView;
@@ -40,7 +41,7 @@
     }else if(indexPath.row == 2){
         pushVC = [[SeekNextBigNumViewController alloc] init];
     }else if(indexPath.row == 3){
-        
+        pushVC = [[SimpleCutViewController alloc] init];
     }else if(indexPath.row == 4){
         
     }else if(indexPath.row == 5){
