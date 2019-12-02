@@ -48,7 +48,7 @@
     }else if(indexPath.row == 5){//插入排序
         pushVC = [[InsertSortViewController alloc]init];
     }else if(indexPath.row == 6){
-        
+        pushVC = QuickSortViewController.new;//快速排序
     }else if(indexPath.row == 7){
         
     }else if(indexPath.row == 8){

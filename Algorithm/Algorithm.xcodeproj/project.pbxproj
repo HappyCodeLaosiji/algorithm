@@ -17,6 +17,7 @@
 		0C6AEBEF238CD3160097356E /* BubbleSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AEBEE238CD3160097356E /* BubbleSortViewController.m */; };
 		0CB91481238FA466003C498E /* SelectionSortNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB91480238FA466003C498E /* SelectionSortNewViewController.m */; };
 		0CB91484238FA4AA003C498E /* InsertSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB91483238FA4AA003C498E /* InsertSortViewController.m */; };
+		299613BB2394B12B009A1788 /* QuickSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299613BA2394B12B009A1788 /* QuickSortViewController.swift */; };
 		29B7616E238D09060033440B /* SelectionSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7616D238D09060033440B /* SelectionSortViewController.swift */; };
 		4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */; };
 		4CFDDF18238D20F90025757D /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF12238D20F90025757D /* MainViewCell.m */; };
@@ -44,6 +45,7 @@
 		0CB91480238FA466003C498E /* SelectionSortNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionSortNewViewController.m; sourceTree = "<group>"; };
 		0CB91482238FA4AA003C498E /* InsertSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSortViewController.h; sourceTree = "<group>"; };
 		0CB91483238FA4AA003C498E /* InsertSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSortViewController.m; sourceTree = "<group>"; };
+		299613BA2394B12B009A1788 /* QuickSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortViewController.swift; sourceTree = "<group>"; };
 		29B7616C238D09060033440B /* Algorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithm-Bridging-Header.h"; sourceTree = "<group>"; };
 		29B7616D238D09060033440B /* SelectionSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSortViewController.swift; sourceTree = "<group>"; };
 		4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekNextBigNumViewController.m; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				0C6AEBED238CD3160097356E /* BubbleSortViewController.h */,
 				0C6AEBEE238CD3160097356E /* BubbleSortViewController.m */,
 				29B7616D238D09060033440B /* SelectionSortViewController.swift */,
+				299613BA2394B12B009A1788 /* QuickSortViewController.swift */,
 				4CFDDF0C238D20E30025757D /* SeekNextBigNumViewController.h */,
 				4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */,
 				4CFDDF2E238F5A390025757D /* SimpleCutViewController.h */,
@@ -252,6 +255,7 @@
 				0C6AEBD4238CCFAF0097356E /* AppDelegate.m in Sources */,
 				0C6AEBEC238CD0640097356E /* MainViewController.m in Sources */,
 				4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */,
+				299613BB2394B12B009A1788 /* QuickSortViewController.swift in Sources */,
 				0CB91484238FA4AA003C498E /* InsertSortViewController.m in Sources */,
 				29B7616E238D09060033440B /* SelectionSortViewController.swift in Sources */,
 				4CFDDF19238D20F90025757D /* AlgorithmMoreModel.m in Sources */,
