@@ -44,5 +44,11 @@
 		<key>algorithmName</key>
 		<string>快速排序</string>
 	</dict>
+	<dict>
+		<key>author</key>
+		<string>yhj</string>
+		<key>algorithmName</key>
+		<string>基数排序</string>
+	</dict>
 </array>
 </plist>

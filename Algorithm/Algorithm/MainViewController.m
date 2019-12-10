@@ -50,7 +50,7 @@
     }else if(indexPath.row == 6){
         pushVC = QuickSortViewController.new;//快速排序
     }else if(indexPath.row == 7){
-        
+        pushVC = radixSortViewController.new;//基数排序
     }else if(indexPath.row == 8){
         
     }else if(indexPath.row == 9){
