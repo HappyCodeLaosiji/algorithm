@@ -2,7 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string></string>
 	<dict>
 		<key>author</key>
 		<string>zht</string>
@@ -47,7 +46,13 @@
 	</dict>
 	<dict>
 		<key>author</key>
-		<string>朴水</string>
+		<string>yhj</string>
+		<key>algorithmName</key>
+		<string>基数排序</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>zht</string>
 		<key>algorithmName</key>
 		<string>字符串反转</string>
 	</dict>
