@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C04599323A3933200B37373 /* CharRevertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C04599223A3933200B37373 /* CharRevertViewController.m */; };
 		0C6AEBD4238CCFAF0097356E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AEBD3238CCFAF0097356E /* AppDelegate.m */; };
 		0C6AEBD7238CCFAF0097356E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AEBD6238CCFAF0097356E /* ViewController.m */; };
 		0C6AEBDA238CCFAF0097356E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6AEBD8238CCFAF0097356E /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C04599123A3933200B37373 /* CharRevertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharRevertViewController.h; sourceTree = "<group>"; };
+		0C04599223A3933200B37373 /* CharRevertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharRevertViewController.m; sourceTree = "<group>"; };
 		0C6AEBCF238CCFAF0097356E /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6AEBD2238CCFAF0097356E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C6AEBD3238CCFAF0097356E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C04599023A3931600B37373 /* CharReverse */ = {
+			isa = PBXGroup;
+			children = (
+				0C04599123A3933200B37373 /* CharRevertViewController.h */,
+				0C04599223A3933200B37373 /* CharRevertViewController.m */,
+			);
+			path = CharReverse;
+			sourceTree = "<group>";
+		};
 		0C6AEBC6238CCFAF0097356E = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +129,7 @@
 		0C6AEBE8238CD0530097356E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0C04599023A3931600B37373 /* CharReverse */,
 				0C6AEBE9238CD0530097356E /* Sort */,
 			);
 			path = Source;
@@ -256,6 +269,7 @@
 				0C6AEBEF238CD3160097356E /* BubbleSortViewController.m in Sources */,
 				0C6AEBE2238CCFB10097356E /* main.m in Sources */,
 				0C6AEBD4238CCFAF0097356E /* AppDelegate.m in Sources */,
+				0C04599323A3933200B37373 /* CharRevertViewController.m in Sources */,
 				0C6AEBEC238CD0640097356E /* MainViewController.m in Sources */,
 				4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */,
 				293ACE64239A42F6008B5C5D /* radixSortViewController.swift in Sources */,

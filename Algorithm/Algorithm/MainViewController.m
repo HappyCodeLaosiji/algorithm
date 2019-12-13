@@ -15,6 +15,8 @@
 #import "SimpleCutViewController.h"
 #import "SelectionSortNewViewController.h"//选择排序
 #import "InsertSortViewController.h"//插入排序
+#import "CharRevertViewController.h"
+
 @interface MainViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NSArray *dataArray;
@@ -52,7 +54,7 @@
     }else if(indexPath.row == 7){
         pushVC = radixSortViewController.new;//基数排序
     }else if(indexPath.row == 8){
-        
+        pushVC = [[CharRevertViewController alloc] init];//字符串反转
     }else if(indexPath.row == 9){
         
     }
