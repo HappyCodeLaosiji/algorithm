@@ -20,6 +20,7 @@
 		0CB91484238FA4AA003C498E /* InsertSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB91483238FA4AA003C498E /* InsertSortViewController.m */; };
 		293ACE64239A42F6008B5C5D /* radixSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293ACE63239A42F6008B5C5D /* radixSortViewController.swift */; };
 		299613BB2394B12B009A1788 /* QuickSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299613BA2394B12B009A1788 /* QuickSortViewController.swift */; };
+		299990AE23B35B870040D921 /* HeapSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299990AD23B35B870040D921 /* HeapSortViewController.m */; };
 		29B7616E238D09060033440B /* SelectionSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7616D238D09060033440B /* SelectionSortViewController.swift */; };
 		4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */; };
 		4CFDDF18238D20F90025757D /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFDDF12238D20F90025757D /* MainViewCell.m */; };
@@ -51,6 +52,8 @@
 		0CB91483238FA4AA003C498E /* InsertSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSortViewController.m; sourceTree = "<group>"; };
 		293ACE63239A42F6008B5C5D /* radixSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radixSortViewController.swift; sourceTree = "<group>"; };
 		299613BA2394B12B009A1788 /* QuickSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortViewController.swift; sourceTree = "<group>"; };
+		299990AC23B35B870040D921 /* HeapSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSortViewController.h; sourceTree = "<group>"; };
+		299990AD23B35B870040D921 /* HeapSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSortViewController.m; sourceTree = "<group>"; };
 		29B7616C238D09060033440B /* Algorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithm-Bridging-Header.h"; sourceTree = "<group>"; };
 		29B7616D238D09060033440B /* SelectionSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSortViewController.swift; sourceTree = "<group>"; };
 		4CFDDF0B238D20E30025757D /* SeekNextBigNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekNextBigNumViewController.m; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				0CB91480238FA466003C498E /* SelectionSortNewViewController.m */,
 				0CB91482238FA4AA003C498E /* InsertSortViewController.h */,
 				0CB91483238FA4AA003C498E /* InsertSortViewController.m */,
+				299990AC23B35B870040D921 /* HeapSortViewController.h */,
+				299990AD23B35B870040D921 /* HeapSortViewController.m */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				0C6AEBE2238CCFB10097356E /* main.m in Sources */,
 				0C6AEBD4238CCFAF0097356E /* AppDelegate.m in Sources */,
 				0C04599323A3933200B37373 /* CharRevertViewController.m in Sources */,
+				299990AE23B35B870040D921 /* HeapSortViewController.m in Sources */,
 				0C6AEBEC238CD0640097356E /* MainViewController.m in Sources */,
 				4CFDDF0D238D20E30025757D /* SeekNextBigNumViewController.m in Sources */,
 				293ACE64239A42F6008B5C5D /* radixSortViewController.swift in Sources */,

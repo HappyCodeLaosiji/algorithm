@@ -56,5 +56,11 @@
 		<key>algorithmName</key>
 		<string>字符串反转</string>
 	</dict>
+	<dict>
+		<key>author</key>
+		<string>yhj</string>
+		<key>algorithmName</key>
+		<string>堆排序</string>
+	</dict>
 </array>
 </plist>

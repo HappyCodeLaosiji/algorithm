@@ -16,6 +16,7 @@
 #import "SelectionSortNewViewController.h"//选择排序
 #import "InsertSortViewController.h"//插入排序
 #import "CharRevertViewController.h"
+#import "HeapSortViewController.h" //堆排序
 
 @interface MainViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,strong)UITableView *tableView;
@@ -56,7 +57,7 @@
     }else if(indexPath.row == 8){
         pushVC = [[CharRevertViewController alloc] init];//字符串反转
     }else if(indexPath.row == 9){
-        
+        pushVC = [[HeapSortViewController alloc]init];//堆排序
     }
     if (indexPath.row <= self.dataArray.count - 1) {
         AlgorithmMoreModel *m = self.dataArray[indexPath.row];
